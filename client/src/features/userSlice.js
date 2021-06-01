@@ -32,7 +32,7 @@ export const {
 } = userSlice.actions
 
 
-export const selectSinedIn = (state) => state.user.isSignedIn
+export const selectSignedIn = (state) => state.user.isSignedIn
 export const selectUserData = (state) => state.user.userData
 export const selectUserInput = (state) => state.user.searchInput
 export const selectBlogData = (state) => state.user.blogData
