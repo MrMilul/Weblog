@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import {useSelector, useDispatch} from 'react-redux'
 import { Avatar } from '@material-ui/core'
 import { GoogleLogout } from 'react-google-login'
@@ -27,8 +28,9 @@ export const Navbar = () => {
     return (
         <div className="navbar">
             <h1 className="navbar__header">
-                Weblog
+                <Link to='/create'>Create Post</Link>
             </h1>
+            
             {
                 isSignedIn && (
                     <div className="blog__search">
@@ -64,7 +66,7 @@ export const Navbar = () => {
                         />
                     </div>
                    
-                ) : ''
+                ) : <h1 className='notSignedIn'> user not availabe</h1>
             }
         </div>
     )
