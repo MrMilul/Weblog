@@ -19,7 +19,7 @@ export const CreatePost = () => {
     const onSubmit = (e)=>{
         e.preventDefault()
 
-        axios.post("/api/blog/createPost", content).
+        axios.post("http://localhost:5000/api/blog/createPost", content).
         then(response=>{
             if(response){
                 console.log("content is posted")
