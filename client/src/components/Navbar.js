@@ -28,9 +28,9 @@ export const Navbar = () => {
     return (
         <div className="navbar">
             <h1 className="navbar__header">
-                <Link to='/create'>Create Post</Link>
+                <Link to="/">Home</Link>
             </h1>
-            
+            <Link to='/create'>Create Post</Link>
             {
                 isSignedIn && (
                     <div className="blog__search">

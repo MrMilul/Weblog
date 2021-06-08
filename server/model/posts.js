@@ -9,3 +9,5 @@ const PostsSchema = new mongoose.Schema({
 }, 
     {timestamp: true}
 )
+
+module.exports = mongoose.model("Blog", PostsSchema)
