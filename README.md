@@ -1,4 +1,4 @@
-In this project a weblog is created by Node.js as server, and MongoDb is used for database.The client side is coded by react.js. Customise UI design is coded bu Css and used Bootstrap as well. Quill Editor is utilized as weblog text editor. 
+In this project a weblog is created by Node.js as server, and MongoDb is used for database.The client side is coded by react.js. Customise UI design is coded by Css and used Bootstrap as well. Quill Editor is utilized as weblog text editor. 
 
 More info:
 
